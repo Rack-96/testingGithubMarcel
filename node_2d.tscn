@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://dwdx6nsufkynj"]
+[gd_scene load_steps=2 format=3 uid="uid://18iesfsi4b3k"]
 
 [ext_resource type="PackedScene" uid="uid://bgbdt3p2ishla" path="res://HiMarcelLabel.tscn" id="1_bvonm"]
 
@@ -21,3 +21,25 @@ offset_right = 110.0
 offset_bottom = 23.0
 grow_horizontal = 2
 text = "Welcome to Summoners Rift"
+
+[node name="Label2" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -42.0
+offset_top = 406.0
+offset_right = 178.0
+offset_bottom = 429.0
+grow_horizontal = 2
+text = "PENTAKILL"
+
+[node name="Label3" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -476.0
+offset_top = 388.0
+offset_right = -256.0
+offset_bottom = 411.0
+grow_horizontal = 2
+text = "A PLAYER HAS LEFT THE GAME"
