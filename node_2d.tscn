@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwdx6nsufkynj"]
+
+[ext_resource type="PackedScene" uid="uid://bgbdt3p2ishla" path="res://HiMarcelLabel.tscn" id="1_bvonm"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" parent="CanvasLayer" instance=ExtResource("1_bvonm")]
+offset_left = -189.0
+offset_top = -73.0
+offset_right = -189.0
+offset_bottom = -73.0
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -110.0
+offset_right = 110.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "Welcome to Summoners Rift"
